@@ -1,0 +1,28 @@
+28/08/2024
+----------------pipe commands-------------------
+
+
+sort file.txt  - 
+
+sort < file.txt
+
+vim name.txt
+
+diff name.txt name1.txt
+
+cat 0< name.txt
+
+cat name.txt
+
+tac - used for reverse sequence
+
+<--tee - its used in linux for read from standard inputs and writs to both standard output and one or more files simultaneously
+|
+-> its useful when you want to view the output of command while also saving it to a file
+
+ls -l | grep "name.txt" | tee -a sort.txt
+
+ls -l | grep "name1.txt" | tee -a sort.txt
+
+ls -l | tee ls.txt
+
