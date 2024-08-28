@@ -1,0 +1,30 @@
+---------------------Vi editer commands-------
+
+shift+o -to start editing line above the cursor
+press o -for start editing below the cursor
+shift+r -start editing from the start of the line
+
+:e!- to undo all the changes
+r - replace single character when cursor is present
+press u for undo changes
+
+dd - to cut the line
+
+p - paste the line below where cursor is present
+
+shift+p  - paste the line above where cursor is present
+
+y  -for copy and p - for paste
+
+y -  for copy the entire line
+p - for paste the copied line
+
+shift+v for enter visual mode of vi editer , and arrows for selection
+
+:linenumber - for jump to the perticular line 
+
+:lineno.d- foe dlt the perticular line
+
+press 5,dd - for dlt the five lines
+
+ 

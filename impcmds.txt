@@ -1,0 +1,17 @@
+for show the information of hidden files- ls -al
+
+ls -l - use to show details info of files and directories or long listing
+
+ls -lt shows the latest file on the top
+
+ls -ltr- shows recent files on serially(vise versa of ls -lt)
+
+use for filename with space- touch "abc pqr"
+
+remove forcefully without taking any permission- rm -rf filename
+remove with permission- rm filename
+
+
+
+
+

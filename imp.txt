@@ -1,0 +1,27 @@
+file read operations
+1- cat -is used to display{or read data of the file from bottom to top}
+ex- syntax- cat-file name
+ cat file1
+
+2- head - is used to read the file from {top to bottom} but it only displays 1st 10 lines of file , if want to change default behavior of it you can use -n flag followed by the number of lines you want to display
+ex- head file1 - display 1st 10 lines
+ex- head -n 20 file1 - display 1st 20 line
+
+tail- this command is use to dislay last 10 lines of the file
+ex- tail file1- display last 10 lines
+ex- tail -n 20 file1- display last 20 lines of activity
+
+less and more command-
+
+less command-it is use to open or read the file in pdf format from top to bottom
+*it offers more finctionality like to scroll up and scroll down you can use up and down arrow
+*to search any word and pattern you can use /
+more command-it is use to open or read the file in pdf format, but it offers less functionality like you can use space bar for scrolling down
+*you cant scroll up once you scroll down
+*up and down arrow to present work
+
+read operations for directory- 
+ls
+ls -a
+ls -l
+ls -ltr
